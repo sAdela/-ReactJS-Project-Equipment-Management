@@ -1,10 +1,10 @@
-# Equipment management project using ReactJS + Typescript with in-memory database (used Recoil.js library as database)
+## Equipment management project using ReactJS + Typescript with in-memory database (used Recoil.js library as database)
 This document has a purpose to define the requirements, documentation and user stories for an
 “Equipment” application that is going to be used internally in the Company d.o.o. company. Application
 should be mobile friendly and its final purpose is to simplify equipment management in the company.
-# Requirements:
+## Requirements:
 
-# 1) Database model 
+## 1) Database model 
 There are two roles in the system:
 1. Employee
 2. Admin
@@ -39,7 +39,7 @@ a. Email
 b. Full Name
 3. Equipment assignments (what equipment item is assigned to which employee) 
 
-# 2) Landing page
+## 2) Landing page
 As an application user, I want to be able to open the app and log in to the system. If system recognizes
 me as an application admin, I should see the administration landing page. If I’m recognized
 as an employee, I should see the employee landing page
@@ -47,7 +47,7 @@ as an employee, I should see the employee landing page
 As an employee, in employee screen, my name should be preselected in “Employee” dropdown and
 the control should be disabled.
 
-# 3) New equipment form
+## 3) New equipment form
 As an application admin, I want to be able to add new equipment to the system. When I click on the
 “Add new equipment” button on the admin landing page, new equipment form should be displayed.
 
@@ -59,7 +59,7 @@ As an application admin, I shouldn’t be able to add two items of same type wit
 number, from same manufacturer. Appropriate warning message should be displayed if this situation
 occurs.
 
-# 4) Assign equipment
+## 4) Assign equipment
 As an application admin, I want to be able to assign the equipment item to the employee. I want to
 be able to go to the “Assign/remove Equipment” page by clicking on the “Assign/remove equipment”
 button on the homepage. Table with the results should include only items that are not assigned 
@@ -74,7 +74,7 @@ item (i.e. Lenovo laptop with a serial number) and choose the employee which I a
 item to. By clicking on the button “Add” item is assigned to the selected employee, modal dialog is
 closed. 
 
-# 5) Remove equipment
+## 5) Remove equipment
 As an application admin, I want to be able to remove the assigned equipment from the employee and
 potentially assign it to someone else in the company. I want to be able to go to the “Assign/remove
 Equipment” page by clicking on the “Assign/remove Equipment” button on the homepage.
@@ -84,7 +84,7 @@ and the name of the employee which I’m removing the item from. By clicking on 
 item is removed from the employee, modal is closed.. Items table is updated and removed item should 
 now be available for new assignment.
 
-# 6) Assign/Remove equipment - Search by serial number
+## 6) Assign/Remove equipment - Search by serial number
 As an application admin, I want to be able to quickly search and find the equipment that needs to be
 added/taken from the employee. So, I would like to improve the “Assign/remove Equipment” screen
 with a search box at the top.
@@ -93,12 +93,12 @@ should be automatically populated with the results (if there are any). If there 
 search box, “type” dropdown should be disabled and if item is found, should be preselected with the
 type of the found item. Once the search box is cleared, “type” dropdown is enabled again
 
-# 7) Filter equipment by type
+## 7) Filter equipment by type
 As an application admin, I want to be able to review the equipment in the company. I want to know
 how many items of specific type free and how many are used. By clicking on the button “Filter by type”
 on application homepage, “Filtered by type” screen should be opened 
 
-# 8) Filter equipment by type
+## 8) Filter equipment by type
 I want to be able to choose the equipment type from the dropdown and upon selection, statistic
 numbers and the table with the assignments should be updated.
 Statistics area should contain the total number of items of selected type, how many are in use and
@@ -108,7 +108,7 @@ The table below should contain all items of selected type with following informa
 - Serial number
 - Assignee
 
-# 9) Filter by employee
+## 9) Filter by employee
 As an application admin, I want to be able to review the specific employee’s equipment. By clicking
 on the button “Filter by employee” on the homepage, “Filtered by employee” screen
 should be opened. 
