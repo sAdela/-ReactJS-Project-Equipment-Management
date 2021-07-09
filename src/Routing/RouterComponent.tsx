@@ -10,23 +10,6 @@ import AssignEquipmentComponent from '../Management/AssignEquipmentComponent';
 import SearchByTypeComponent from '../SearchBy/SearchByTypeComponent';
 
 
-// interface IUser {
-//     username: string;
-//     password: string;
-//     isAdmin: boolean;
-//     name: string;
-// }
-// interface IState {
-//     username: string;
-//     password: string;
-// }
-// var users: IUser[] = [
-//     {username: 'admin', password: 'admin', isAdmin: true, name: 'Super Admin'},
-//     {username: 'apjanic', password: 'apjanic', isAdmin: false, name: 'Ademir Pjanic'},
-//     {username: 'acolic', password: 'acolic', isAdmin: false, name: 'Aldin Colic'},
-//     {username: 'adelic', password: 'adelic', isAdmin: false, name: 'Alija Delic'},
-// ]
-
 const RouterComponent: React.FC = () => {
     return (<Router>
         <RecoilRoot>
