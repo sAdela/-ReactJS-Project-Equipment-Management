@@ -1,0 +1,26 @@
+.addEquipmentButton {
+    width: 300px;
+}
+.logo {
+    width: 10%;
+}
+.footer {
+    position: absolute;
+    bottom: 5px;
+}
+.employeeDashboard {
+    margin: 10%;
+}
+.equipmentTypeList {
+    font-size: medium;
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 25%;
+    }
+    .addEquipmentButton {
+        width: 90%;
+    }
+  }
+ 

@@ -1,0 +1,25 @@
+.serialNumberField {
+    width: 300px;
+}
+.dashboardButton {
+    width: 35%;
+    height: 15%;
+}
+.modal {
+    top: 25% !important;
+}
+.modal-content {
+    border-radius:10px;
+    background-color: rgb(242, 244, 247);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 10px 10px 30px 10px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 10px 10px 30px 10px rgb(0 0 0 / 30%);
+    box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 30%);
+}
+
+@media only screen and (max-width: 768px) {
+    .dashboardButton, .serialNumberField, .ms-Dropdown  {
+        width: 90%;
+    }
+  }
+ 
