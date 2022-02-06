@@ -1,4 +1,4 @@
-## Equipment management project using ReactJS + Typescript with in-memory database (used Recoil.js library as database)
+## Equipment management project using React + Typescript with in-memory database (used Recoil.js library as database)
 This document has a purpose to define the requirements, documentation and user stories for an
 “Equipment” application that is going to be used internally in the Company d.o.o. company. Application
 should be mobile friendly and its final purpose is to simplify equipment management in the company.
